@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>0-first_step</title>
+        <script src="js/vue.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <div v-html="content_html"></div>
+            <!-- v-bind:<atributo> es para poner los atributos con las variables de Vue pero basta con solo poner :<atributo> -->
+            <img v-bind:src="src" :alt="alt" :title="alt">
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+</html>

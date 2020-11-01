@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>0-first_step</title>
+        <script src="js/vue.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <!-- v-on:<evento> es para llamar un metodo cuando pasa un evento, la forma simple es @<evento> -->
+            <button v-on:click="incrementar">+</button>
+            <button @click="decrementar">-</button>
+            {{numero}}
+            <h1 :style="{color: 'blue', fontSize: numero + 'px'}">Hola mundo!!</h1>
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+</html>
